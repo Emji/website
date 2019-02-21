@@ -10663,6 +10663,14 @@ a.text-dark:focus {
   align-items: center;
 }
 
+.boxshadow-right {
+  box-shadow: 2px 0px 23px 0px rgba(156, 156, 156, 0.6);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
 header {
   display: inline-block;
   padding: 25px;
@@ -10768,5 +10776,16 @@ header nav ul li a:hover {
   .espace-layout-top {
     margin-top: 100px;
   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  font-family: "Raleway", sans-serif !important;
 }
 

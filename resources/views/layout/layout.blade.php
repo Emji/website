@@ -9,6 +9,7 @@
 </head>
 <body>
     
+    @include('partial.nav')
     @yield('content')
 
 </body>
